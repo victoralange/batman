@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+    color: aliceblue;
+}
+
+header {
+    color: rgb(225, 221, 0);
+}
+
+.imagens-batman {
+    width: 200px;
+    height: 120px; 
+    margin: 10px;
+    padding: 6px;
+    background-color: white;
+    border: solid rgb(225, 221, 0);
+    transition: transform 0.3s;
+}
+
+.imagens-batman:hover{
+    transform: scale(1.2);
+}
+
+#critica {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#galeria, h1 {
+    text-align: center;
+}
+
+p {
+    color: aqua;
+}
+
+footer p {
+    color: rgb(233, 21, 187);
+    text-align: center;
+}
+
+#foto-principal {
+    border-color: red;
+}
